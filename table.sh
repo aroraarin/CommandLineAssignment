@@ -1,8 +1,7 @@
 #!/bin/bash
 
-echo "Enter number for which table is to be generated: "
-#taking input from the user
-read n
+#taking input from command line
+n = $1
 
 #checking whether an input is given or not
 if [ -z $n ]
