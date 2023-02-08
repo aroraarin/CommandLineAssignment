@@ -9,8 +9,8 @@ cd Assignment
 #creating a file named File1.txt inside Assignment directory
 touch File1.txt
 
-#copying the content of Q2.sh file into File1.txt
-echo | cat ../Q2.sh > File1.txt
+#copying the content of table.sh file into File1.txt
+echo | cat ../table.sh > File1.txt
 
 #appending "Welcome to Sigmoid" in File1.txt
 echo "Welcome to Sigmoid" >> File1.txt
