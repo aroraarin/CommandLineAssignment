@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #taking input from command line
-n = $1
+n=$1
 
 #checking whether an input is given or not
 if [ -z $n ]
